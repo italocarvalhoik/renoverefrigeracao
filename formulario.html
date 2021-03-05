@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RENOVE - Formulário</title>
+    <!--Kit do site Font Awesome-->
+    <script src="https://kit.fontawesome.com/ceb8003d36.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+<link href="css/styleformulario.css" rel="stylesheet"/>
+
+<script> alert("Preencha o formulário para que seja atendido.");
+    
+</script>
+
+</head>
+
+
+
+<body>
+    <header>
+        <div class="center">
+            <div class="logo">
+                <h2><i class="far fa-snowflake"></i><a href="index.html">RENOVE</a></h2>
+                <p>Refrigeração</p>
+            </div><!--logo-->
+            <div class="menu">
+                <a href="index.html">
+                    Home
+                </a>
+                <a href="sobre.html">
+                    Sobre
+                </a>
+                <a href="fotos.html">
+                    Fotos
+                </a>
+                <a href="contatos.html">
+                    Contatos
+                </a>
+    
+                <a class="btn-menu" href="formulario.html">
+                    Iniciar agora!
+                </a>
+            </div><!--menu-->
+            <div class="menu-mobile">
+                <i class="fas fa-bars"></i>
+            </div><!--menu-mobile-->
+        </div><!--center-->
+    
+    </header>
+
+
+
+<section class="fundo">
+    <div>
+        <h1 id="titulo">Solicitação do cliente</h1>
+        <p id="subtitulo">Complete com suas informações</p>
+        <br/>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome:</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            <div class="campo">
+                <label for="endereço"><strong>Endereço :</strong></label>
+                <input type="text" name="endereço" id="endereço" required>
+            </div>
+            <div class="campo">
+                <label for="contato"><strong>Contato (DDD+Número):</strong></label>
+                <input type="tel" name="contato" id="contato" required>
+            </div>
+            <div class="campo">
+                <label for="email"><strong>Email (Opcional): </strong></label>
+                <input type="email" name="email" id="email">
+            </div>    
+
+        </fieldset>
+
+        <div class="campo">
+            <br/>
+            <label>
+                <h3><strong>Qual serviço você deseja?</strong></h3>
+            </label>
+                      
+            <label>
+                <input type="radio" name="serviço" value="manutenção" required>Manutenção Geral.
+            </label>
+            <br/>
+            <label>
+                <input type="radio" name="serviço" value="instalação" required>Instalação - Ar Condicionado Split (ACS).
+            </label>
+            <br/>
+            <label>
+                <input type="radio" name="serviço" value="remanejamento" required>Remanejamento ou desmontagem (ACS).
+            </label>
+            <br/>
+            <label>
+                <input type="radio" name="serviço" value="geladeira" required>Serviços para Geladeiras e freezer.
+            </label>
+            <br/>
+            <label>
+                <input type="radio" name="serviço" value="retorno" required>Solicitar um Retorno.
+            </label>
+        </div>
+        <br/>
+        <div class="campo">
+            <label for="horario"><h4><strong>Qual o melhor horário para o atendimento?</strong></h4></label>
+            <select id="horario" required>
+                <option selected disabled value="">Selecione</option>
+                <option>08h - 10h</option>
+                <option>10h - 12h</option>
+                <option>14h - 16h</option>
+                <option>16h - 17h</option>
+                <option>Qualquer horário</option>   
+            </select>
+        </div>
+        <br/>
+
+        <fieldset class="grupo-selecione">
+            <div id="check">
+                <label><h4><strong>Selecione o fabricante:</strong></h4></label>
+                <input type="checkbox" id="tecnology1" name="tecnology1" value="Electrolux">
+                <label form="tecnology1">Electrolux</label>
+                <input type="checkbox" id="tecnology2" name="tecnology2" value="Consul">
+                <label form="tecnology2">Consul</label>
+                <input type="checkbox" id="tecnology3" name="tecnology3" value="Midea">
+                <label form="tecnology3">Midea</label><br/>
+                <input type="checkbox" id="tecnology4" name="tecnology4" value="LG">
+                <label form="tecnology4">LG</label>
+                <input type="checkbox" id="tecnology5" name="tecnology5" value="Samsung">
+                <label form="tecnology5">Samsung</label>
+                <input type="checkbox" id="tecnology6" name="tecnology6" value="Philco">
+                <label form="tecnology6">Philco</label>
+                <input type="checkbox" id="tecnology7" name="tecnology7" value="Outro">
+                <label form="tecnology7">Outro</label>
+            </div>
+        </fieldset>
+
+        <div class="campo-texto">
+            <br/>
+            <label><h4><strong>Conte-nos mais sobre a sua solicitação:</strong></h4></label>
+            <textarea rows="6" style="width: 580px" id="situação" name="situação"></textarea>    
+        </div>
+        <button class="botao-concluido" type="submit"> Concuído</button>
+
+
+    
+</form>
+    <br/>
+    <br/>
+    <br/>
+<div class="agradecimento">
+    <h4> Após preenchimentos dos dados de Solicitação. <br/>
+    Aguarde a confirmação de nosso contato de retorno.</h4>
+        <br/>
+        <h4>Obrigado por confiar em nosso atendimento.</h4>
+        <br/>
+</div>
+</section>
+
+
+
+</body>
+
+<footer class="rodape">
+    <p>Desenvolvido por <a href="index.html">Renove Refrigeração</a></p>
+    <a href="index.html"><img class="rodape" src="img/logotipo.png"></a>
+    
+</footer>
+</html>

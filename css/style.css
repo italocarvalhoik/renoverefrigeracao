@@ -1,0 +1,382 @@
+
+*{
+    margin: 0;
+    
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.center {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.menu-mobile{
+    display: none;
+}
+
+
+header{
+    
+    padding: 8px 0;
+    border-bottom: 1px solid #16507b;
+    background-image: url('../img/topo.jpg');
+    background-repeat: no-repeat;
+    
+   
+}
+.logo{
+    color: #16507b ;
+    
+}
+.logo i{
+    color: cornflowerblue;
+}
+
+
+.logo h2 a{
+    font-weight: normal;
+    font-size: 25px;
+    color: rgb(67, 118, 230);
+    text-decoration: none;
+
+}
+
+
+
+.logo p{
+    font-weight: normal;
+    font-size: 15px;
+    color: cornflowerblue;
+}
+.menu{
+    width: 80%;
+    text-align: right;
+}
+
+.menu a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 25px;
+   
+}
+.menu a:hover{
+    color: #007bff;
+}
+.menu .btn-menu{
+    background-color: rgb(12, 79, 167);
+    display: inline-block;
+    padding: 6px 12px ;
+    color: white;
+    border-radius: 8px;
+
+}
+.menu .btn-menu :hover{
+    background-color: teal;
+    color: white;
+}
+
+/*Section Main*/
+
+section.main{
+    /*background-color: rgb(145, 174, 187);*/
+    background-image: url('../img/fundo.jpg');
+    /*min-height: 500px;*/
+    padding: 100px;
+    background-position:  center;
+    background-size:  cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.main_cta{
+    width: 100%;
+    margin: 60px 0;
+    text-align: center;
+}
+
+.main_cta h2{
+    color: teal;
+    font-size: 40px;
+    margin: 10px 0;
+
+}
+
+.main_cta p{
+    color: rgb(62, 100, 100);
+    font-size: 19px;    
+    margin: 12px 0;  
+}
+ 
+.main_cta  button{
+    background-color: rgb(12, 79, 167);
+    display: inline-block;
+    padding: 8px 30px ;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.diferenciais{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap; 
+}
+
+.diferencial-single{
+    border-radius: 10px;
+    background-color: white;
+   width: 23%;
+   margin-right: 2%;
+   padding: 50px 50px;
+  
+}
+
+
+.diferencial-single2{
+    border-radius: 10px;
+    background-color: white;
+   width: 23%;
+   margin-right: 2%;
+   padding: 50px 50px;
+   
+}
+
+.diferencial-single3{
+    border-radius: 10px;
+    background-color: white;
+   width: 23%;
+   margin-right: 2%;
+   padding: 50px 50px;
+  
+}
+
+.diferencial-single4{
+    border-radius: 10px;
+  background-color: white;
+   width: 23%;
+   margin-right: 2%;
+   padding: 50px 50px;
+   
+}
+
+
+
+
+/*fontAwesome*/
+.diferencial-single i{
+    color:rgb(12, 79, 167);
+    font-size: 23px;
+}
+
+.diferencial-single h2{
+    color: rgb(17, 63, 201);
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.diferencial-single p{
+    color:teal;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+
+
+.diferencial-single2 i{
+    color:rgb(12, 79, 167);
+    font-size: 23px;
+}
+
+.diferencial-single2 h2{
+    color: rgb(17, 63, 201);
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.diferencial-single2 p{
+    color:teal;
+    font-size: 14px;
+    line-height: 30px;
+    
+
+}
+
+
+.diferencial-single3 i{
+    color:rgb(12, 79, 167);
+    font-size: 23px;
+}
+
+.diferencial-single3 h2{
+    color: rgb(17, 63, 201);
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.diferencial-single3 p{
+    color:teal;
+    font-size: 14px;
+    line-height: 30px;
+    
+
+}
+
+.diferencial-single4 i{
+    color:rgb(12, 79, 167);
+    font-size: 23px;
+   
+}
+
+.diferencial-single4 h2{
+    color: rgb(17, 63, 201);
+    margin: 10px 0;
+    font-size: 17px;
+   
+}
+
+.diferencial-single4 p{
+    color:teal;
+    font-size: 14px;
+    line-height: 30px;
+  
+}
+
+
+
+
+section.sobre{
+    padding: 20px 0;
+    background-color: rgb(203, 250, 236);
+    
+}
+
+.chamada-sobre{
+    width: 100%;
+    text-align: center;
+}
+
+.chamada-sobre h2{
+    color: slateblue;
+    text-transform: uppercase;
+    
+}
+
+.chamada-sobre p{
+    font-size: 14px;
+    color: teal;
+    margin: 1px 0;
+
+}
+
+.conteudo-sobre{
+    text-align: right;
+    display: flex;
+    flex-wrap: wrap;
+}
+.conteudo-sobre p{
+width: 48%;
+margin-right: 2%;
+color: royalblue;
+}
+.conteudo-sobre span{
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    color: royalblue;
+}
+
+.conteudo-sobre i{
+    color: rgb(27, 160, 34);
+}
+
+section.conquistas{
+    background-color: rgb(232, 243, 252);
+    padding: 20px 0;
+}
+
+.conquista-single{
+    width: 22%;
+    margin-right: 3%;
+    text-align: center;
+    color: darkcyan;
+}
+
+.conquista-single h2{
+    font-size: 30px;
+    color: darkcyan;
+}
+
+@media screen and (max-width: 768px){
+     .diferencial-single{
+         width: 100%;
+         margin-bottom: 20px;
+     }
+     .menu{
+         display: none;
+     }
+     .logo{
+         width: 20%;
+     }
+     .menu-mobile{
+         width: 80%;
+         text-align: right;
+         display: block;
+     }
+
+     .menu-mobile i{
+         cursor: pointer;
+         font-size: 23px;
+         margin-top: 8px;
+         color: rgb(0, 95, 139);
+     }
+
+     .conteudo-sobre p{
+         width: 100%;
+         margin-bottom: 20px;
+     }
+}
+
+.cartoes {
+    background-color: rgb(203, 250, 236);
+    text-align: center;
+    border-bottom: 1px solid #16507b;
+    
+}
+.cartao i {
+    margin-top: 2%;
+    font-size: 20px;
+    color: blue;
+}
+.cartao h3 {
+    color: blue;
+
+}
+
+
+.rodape {
+    
+    background-color: rgb(232, 243, 252);
+    text-align: right;
+    color: rgb(0, 0, 0);
+}
+
+.rodape p a {
+    color:blue;
+    text-decoration: none;
+}
